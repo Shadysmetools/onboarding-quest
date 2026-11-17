@@ -1,0 +1,21 @@
+{
+  "name": "onboarding-quest",
+  "version": "1.0.0",
+  "description": "A gamified onboarding and internship tracker: quest map, quizzes, badges, a Telegram mentor bot and live progress.",
+  "license": "Apache-2.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20.12" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node server.mjs",
+    "demo": "node server.mjs --demo",
+    "start": "node server.mjs",
+    "lint": "node scripts/lint.mjs",
+    "test": "node --test",
+    "telegram:webhook": "node scripts/telegram-webhook.mjs",
+    "tracker:github": "node tracker/github-setup.mjs",
+    "tracker:csv": "node tracker/export-csv.mjs"
+  },
+  "keywords": ["onboarding", "internship", "gamification", "telegram-bot", "vercel", "upstash", "mentorship"]
+}

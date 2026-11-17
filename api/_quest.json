@@ -1,0 +1,715 @@
+{
+ "title": "Onboarding Quest",
+ "learner": "New Hire",
+ "tagline": "Five days, a short guide and a quiz for every topic. Tick off what you finish, pass each quiz to earn its badge, and merge your first week into main.",
+ "passMark": 0.8,
+ "levels": [
+  {
+   "at": 0,
+   "name": "Rookie"
+  },
+  {
+   "at": 250,
+   "name": "Committer"
+  },
+  {
+   "at": 550,
+   "name": "PR Pro"
+  },
+  {
+   "at": 900,
+   "name": "Pipeline Pilot"
+  },
+  {
+   "at": 1300,
+   "name": "Team Player"
+  }
+ ],
+ "exam": {
+  "name": "Final exam",
+  "count": 10,
+  "pass": 8
+ },
+ "finale": "Week 1 complete. Your first real ticket is next!",
+ "days": [
+  {
+   "n": 1,
+   "title": "Set up your machine",
+   "summary": "Get every tool installed and say hello to the team.",
+   "docs": [
+    {
+     "title": "Git: first-time setup",
+     "url": "https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup"
+    },
+    {
+     "title": "GitHub: connecting with SSH",
+     "url": "https://docs.github.com/en/authentication/connecting-to-github-with-ssh"
+    }
+   ],
+   "quizzes": [
+    "setup"
+   ],
+   "videos": [
+    "https://www.youtube.com/watch?v=hwP7WQkmECE"
+   ],
+   "steps": [
+    {
+     "k": "s1-1",
+     "t": "Install Git"
+    },
+    {
+     "k": "s1-2",
+     "t": "Install VS Code"
+    },
+    {
+     "k": "s1-3",
+     "t": "Install Node.js LTS"
+    },
+    {
+     "k": "s1-4",
+     "t": "Create a GitHub account with 2FA"
+    },
+    {
+     "k": "s1-5",
+     "t": "Add an SSH key to GitHub"
+    },
+    {
+     "k": "s1-6",
+     "t": "Join the team chat and post a hello"
+    },
+    {
+     "k": "s1-7",
+     "t": "Pass today's quiz with 80% or better",
+     "quiz": [
+      "setup"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Git fundamentals",
+   "summary": "Clone the team repo, branch, commit and resolve a conflict.",
+   "docs": [
+    {
+     "title": "Pro Git: branching in a nutshell",
+     "url": "https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell"
+    },
+    {
+     "title": "Git flight rules",
+     "url": "https://github.com/k88hudson/git-flight-rules"
+    }
+   ],
+   "quizzes": [
+    "git"
+   ],
+   "videos": [
+    "https://www.youtube.com/watch?v=xNVM5UxlFSA"
+   ],
+   "steps": [
+    {
+     "k": "s2-1",
+     "t": "Clone the team repository"
+    },
+    {
+     "k": "s2-2",
+     "t": "Create a branch named after yourself"
+    },
+    {
+     "k": "s2-3",
+     "t": "Make three small commits with clear messages"
+    },
+    {
+     "k": "s2-4",
+     "t": "Resolve a practice merge conflict"
+    },
+    {
+     "k": "s2-5",
+     "t": "Pass today's quiz with 80% or better",
+     "quiz": [
+      "git"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Your first pull request",
+   "summary": "Open a PR, get a review and merge it.",
+   "docs": [
+    {
+     "title": "GitHub: about pull requests",
+     "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests"
+    },
+    {
+     "title": "First contributions",
+     "url": "https://github.com/firstcontributions/first-contributions"
+    }
+   ],
+   "quizzes": [
+    "pr"
+   ],
+   "videos": [
+    "https://www.youtube.com/watch?v=dSl_qnWO104"
+   ],
+   "steps": [
+    {
+     "k": "s3-1",
+     "t": "Fix a typo or small doc issue on your branch"
+    },
+    {
+     "k": "s3-2",
+     "t": "Open a pull request with a clear description"
+    },
+    {
+     "k": "s3-3",
+     "t": "Request a review from your mentor"
+    },
+    {
+     "k": "s3-4",
+     "t": "Address review comments and get it merged"
+    },
+    {
+     "k": "s3-5",
+     "t": "Pass today's quiz with 80% or better",
+     "quiz": [
+      "pr"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "CI and tests",
+   "summary": "Run the test suite and understand what the pipeline checks.",
+   "docs": [
+    {
+     "title": "GitHub Actions: quickstart",
+     "url": "https://docs.github.com/en/actions/writing-workflows/quickstart"
+    }
+   ],
+   "quizzes": [
+    "ci"
+   ],
+   "videos": [
+    "https://www.youtube.com/watch?v=scEDHsr3APg"
+   ],
+   "steps": [
+    {
+     "k": "s4-1",
+     "t": "Run the project locally"
+    },
+    {
+     "k": "s4-2",
+     "t": "Run the test suite locally"
+    },
+    {
+     "k": "s4-3",
+     "t": "Read the CI workflow file and explain each job"
+    },
+    {
+     "k": "s4-4",
+     "t": "Write one new test"
+    },
+    {
+     "k": "s4-5",
+     "t": "Pass today's quiz with 80% or better",
+     "quiz": [
+      "ci"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Ship something",
+   "summary": "Pick a starter ticket, demo it and reflect on the week.",
+   "docs": [
+    {
+     "title": "How to write a good retro",
+     "url": "https://www.atlassian.com/team-playbook/plays/retrospective"
+    }
+   ],
+   "quizzes": [
+    "team"
+   ],
+   "videos": [],
+   "steps": [
+    {
+     "k": "s5-1",
+     "t": "Pick a good-first-issue from the board"
+    },
+    {
+     "k": "s5-2",
+     "t": "Ship it behind a reviewed PR"
+    },
+    {
+     "k": "s5-3",
+     "t": "Demo it at stand-up"
+    },
+    {
+     "k": "s5-4",
+     "t": "Write a short week-1 retro"
+    },
+    {
+     "k": "s5-5",
+     "t": "Pass today's quiz with 80% or better",
+     "quiz": [
+      "team"
+     ]
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "n": 1,
+   "lang": "EN",
+   "id": "git-100",
+   "title": "Git Explained in 100 Seconds",
+   "channel": "Fireship",
+   "len": "1:57",
+   "track": "git",
+   "url": "https://www.youtube.com/watch?v=hwP7WQkmECE"
+  },
+  {
+   "n": 2,
+   "lang": "EN",
+   "id": "merge-conflicts",
+   "title": "How to resolve merge conflicts in Git",
+   "channel": "Ihatetomatoes",
+   "len": "6:36",
+   "track": "git",
+   "url": "https://www.youtube.com/watch?v=xNVM5UxlFSA"
+  },
+  {
+   "n": 3,
+   "lang": "EN",
+   "id": "first-pr",
+   "title": "Your First GitHub Pull Request (in 10 Mins)",
+   "channel": "Jackson Bates",
+   "len": "9:47",
+   "track": "git",
+   "url": "https://www.youtube.com/watch?v=dSl_qnWO104"
+  },
+  {
+   "n": 4,
+   "lang": "EN",
+   "id": "cicd-100",
+   "title": "DevOps CI/CD Explained in 100 Seconds",
+   "channel": "Fireship",
+   "len": "1:55",
+   "track": "ci",
+   "url": "https://www.youtube.com/watch?v=scEDHsr3APg"
+  },
+  {
+   "n": 5,
+   "lang": "EN",
+   "id": "actions-intro",
+   "title": "GitHub Actions CI/CD: everything you need to get started",
+   "channel": "DevOps Journey",
+   "len": "12:21",
+   "track": "ci",
+   "url": "https://www.youtube.com/watch?v=mFFXuXjVgkU"
+  }
+ ],
+ "tracks": [
+  {
+   "key": "setup",
+   "name": "Tooling",
+   "short": "DEV",
+   "quizzes": [
+    "setup"
+   ],
+   "docs": []
+  },
+  {
+   "key": "git",
+   "name": "Git & GitHub",
+   "short": "GIT",
+   "quizzes": [
+    "git",
+    "pr"
+   ],
+   "docs": []
+  },
+  {
+   "key": "ci",
+   "name": "CI & Testing",
+   "short": "CI",
+   "quizzes": [
+    "ci"
+   ],
+   "docs": []
+  },
+  {
+   "key": "team",
+   "name": "How We Work",
+   "short": "TEAM",
+   "quizzes": [
+    "team"
+   ],
+   "docs": []
+  }
+ ],
+ "resources": [
+  {
+   "group": "Learn Git",
+   "name": "firstcontributions/first-contributions",
+   "what": "Make your first open-source PR in minutes",
+   "level": "Beginner",
+   "url": "https://github.com/firstcontributions/first-contributions"
+  },
+  {
+   "group": "Learn Git",
+   "name": "skills/introduction-to-github",
+   "what": "Interactive GitHub course",
+   "level": "Beginner",
+   "url": "https://github.com/skills/introduction-to-github"
+  },
+  {
+   "group": "Learn Git",
+   "name": "k88hudson/git-flight-rules",
+   "what": "What to do when things go wrong",
+   "level": "Intermediate",
+   "url": "https://github.com/k88hudson/git-flight-rules"
+  },
+  {
+   "group": "Keep growing",
+   "name": "jlevy/the-art-of-command-line",
+   "what": "Command-line fluency on one page",
+   "level": "Intermediate",
+   "url": "https://github.com/jlevy/the-art-of-command-line"
+  },
+  {
+   "group": "Keep growing",
+   "name": "practical-tutorials/project-based-learning",
+   "what": "Learn by building real projects",
+   "level": "All levels",
+   "url": "https://github.com/practical-tutorials/project-based-learning"
+  },
+  {
+   "group": "Keep growing",
+   "name": "donnemartin/system-design-primer",
+   "what": "How large systems are designed",
+   "level": "Advanced",
+   "url": "https://github.com/donnemartin/system-design-primer"
+  }
+ ],
+ "quizzes": {
+  "setup": {
+   "topic": "Tooling and setup",
+   "questions": [
+    {
+     "q": "Which command confirms Git is installed?",
+     "options": [
+      "git --version",
+      "git init",
+      "git status --all",
+      "git config"
+     ],
+     "answer": 0,
+     "explain": "git --version prints the installed version."
+    },
+    {
+     "q": "Why use an SSH key with GitHub?",
+     "options": [
+      "It makes repos public",
+      "It authenticates you without typing a password",
+      "It speeds up CI",
+      "It is required for issues"
+     ],
+     "answer": 1,
+     "explain": "SSH keys prove who you are on every push and pull."
+    },
+    {
+     "q": "What does 2FA protect against?",
+     "options": [
+      "Merge conflicts",
+      "Slow builds",
+      "Someone logging in with a stolen password",
+      "Large files"
+     ],
+     "answer": 2,
+     "explain": "A second factor stops a leaked password from being enough."
+    },
+    {
+     "q": "What does LTS mean for Node.js?",
+     "options": [
+      "Latest test snapshot",
+      "Long-term support",
+      "Low-traffic server",
+      "Local tool set"
+     ],
+     "answer": 1,
+     "explain": "LTS releases get fixes for a long time, so teams standardise on them."
+    },
+    {
+     "q": "Where should secrets like API tokens live?",
+     "options": [
+      "In the README",
+      "In a committed config file",
+      "In an environment file that is never committed",
+      "In a code comment"
+     ],
+     "answer": 2,
+     "explain": "Keep secrets in env files listed in .gitignore, or in a secrets manager."
+    }
+   ]
+  },
+  "git": {
+   "topic": "Git fundamentals",
+   "questions": [
+    {
+     "q": "Which command shows files you changed but have not committed?",
+     "options": [
+      "git tag",
+      "git log",
+      "git push",
+      "git status"
+     ],
+     "answer": 3,
+     "explain": "git status shows the working folder and staging area."
+    },
+    {
+     "q": "What does 'git add' do?",
+     "options": [
+      "Deletes a file",
+      "Uploads to GitHub",
+      "Creates a branch",
+      "Moves changes into the staging area"
+     ],
+     "answer": 3,
+     "explain": "Staging chooses what goes into the next commit."
+    },
+    {
+     "q": "Which push option is the safe way to overwrite a remote branch you own?",
+     "options": [
+      "--force-with-lease",
+      "--delete",
+      "--force",
+      "--all"
+     ],
+     "answer": 0,
+     "explain": "--force-with-lease refuses if someone else pushed in the meantime."
+    },
+    {
+     "q": "You committed with a typo in the message and have not pushed. What fixes it?",
+     "options": [
+      "git commit --amend",
+      "git stash",
+      "git revert",
+      "git reset --hard"
+     ],
+     "answer": 0,
+     "explain": "--amend rewrites the last commit, which is fine before pushing."
+    },
+    {
+     "q": "What causes a merge conflict?",
+     "options": [
+      "Two branches changed the same lines differently",
+      "A branch has too many commits",
+      "The remote is offline",
+      "A file was renamed"
+     ],
+     "answer": 0,
+     "explain": "Git cannot pick between two different edits to the same lines, so it asks you."
+    }
+   ]
+  },
+  "pr": {
+   "topic": "Pull requests and review",
+   "questions": [
+    {
+     "q": "What is a pull request?",
+     "options": [
+      "A request to download a repo",
+      "A proposal to merge one branch into another, with review",
+      "A bug report",
+      "A deploy command"
+     ],
+     "answer": 1,
+     "explain": "PRs let the team review a change before it merges."
+    },
+    {
+     "q": "What makes a PR easy to review?",
+     "options": [
+      "Many unrelated changes",
+      "A small, focused change with a clear description",
+      "No description",
+      "Force-pushing during review"
+     ],
+     "answer": 1,
+     "explain": "Small and focused PRs get faster, better reviews."
+    },
+    {
+     "q": "A reviewer asks for a change. What do you do?",
+     "options": [
+      "Close the PR",
+      "Push a new commit that addresses it and reply",
+      "Merge anyway",
+      "Open a new repo"
+     ],
+     "answer": 1,
+     "explain": "Address the comment, push, and reply so the reviewer knows."
+    },
+    {
+     "q": "What does 'Closes #12' in a PR description do?",
+     "options": [
+      "Nothing",
+      "Deletes issue 12",
+      "Closes issue 12 when the PR merges",
+      "Assigns issue 12 to you"
+     ],
+     "answer": 2,
+     "explain": "GitHub links the PR to the issue and closes it on merge."
+    },
+    {
+     "q": "Why protect the main branch?",
+     "options": [
+      "To make it faster",
+      "So changes only land through reviewed, passing PRs",
+      "To hide it",
+      "To save disk space"
+     ],
+     "answer": 1,
+     "explain": "Branch protection enforces review and green checks before merge."
+    }
+   ]
+  },
+  "ci": {
+   "topic": "CI and testing",
+   "questions": [
+    {
+     "q": "What does CI stand for?",
+     "options": [
+      "Code Inspection",
+      "Continuous Integration",
+      "Cloud Infrastructure",
+      "Commit Index"
+     ],
+     "answer": 1,
+     "explain": "CI builds and tests every change automatically."
+    },
+    {
+     "q": "Where do GitHub Actions workflows live?",
+     "options": [
+      ".github/workflows/",
+      "src/ci/",
+      "the README",
+      "package.json"
+     ],
+     "answer": 0,
+     "explain": "Each YAML file in .github/workflows/ is a workflow."
+    },
+    {
+     "q": "CI fails on your PR. What first?",
+     "options": [
+      "Re-run until green",
+      "Read the failing job's log",
+      "Delete the test",
+      "Merge anyway"
+     ],
+     "answer": 1,
+     "explain": "The log tells you which step failed and why."
+    },
+    {
+     "q": "What is a unit test?",
+     "options": [
+      "A test of one small piece of code in isolation",
+      "A load test",
+      "A manual click-through",
+      "A security scan"
+     ],
+     "answer": 0,
+     "explain": "Unit tests check one function or module quickly."
+    },
+    {
+     "q": "Why run tests locally before pushing?",
+     "options": [
+      "CI is optional",
+      "Faster feedback and fewer red PRs",
+      "It deploys the app",
+      "Tests only run locally"
+     ],
+     "answer": 1,
+     "explain": "Catching failures early saves everyone time."
+    }
+   ]
+  },
+  "team": {
+   "topic": "How we work",
+   "questions": [
+    {
+     "q": "What belongs in a stand-up update?",
+     "options": [
+      "Yesterday, today, blockers",
+      "Your whole task list",
+      "Code snippets",
+      "Nothing, just listen"
+     ],
+     "answer": 0,
+     "explain": "Keep it short: what you did, what you will do, what blocks you."
+    },
+    {
+     "q": "You are stuck for over an hour. What should you do?",
+     "options": [
+      "Keep trying silently",
+      "Ask in the team chat with what you tried",
+      "Skip the task",
+      "Wait for stand-up tomorrow"
+     ],
+     "answer": 1,
+     "explain": "Asking early with context is a strength, not a weakness."
+    },
+    {
+     "q": "What is a good-first-issue?",
+     "options": [
+      "The oldest bug",
+      "A small, well-scoped task for newcomers",
+      "A critical outage",
+      "A feature request from a customer"
+     ],
+     "answer": 1,
+     "explain": "They are picked so a newcomer can ship quickly."
+    },
+    {
+     "q": "What is a retro for?",
+     "options": [
+      "Blaming people",
+      "Learning what to keep and what to change",
+      "Planning salaries",
+      "Writing docs"
+     ],
+     "answer": 1,
+     "explain": "Retros turn experience into improvements."
+    },
+    {
+     "q": "When is a task 'done'?",
+     "options": [
+      "When the code compiles",
+      "When it is merged, tested and meets the acceptance criteria",
+      "When you push",
+      "When you start the next task"
+     ],
+     "answer": 1,
+     "explain": "Done means it works, is reviewed and is merged."
+    }
+   ]
+  }
+ },
+ "quizCounts": {
+  "setup": 5,
+  "git": 5,
+  "pr": 5,
+  "ci": 5,
+  "team": 5
+ },
+ "videoNums": {
+  "1": "https://www.youtube.com/watch?v=hwP7WQkmECE",
+  "2": "https://www.youtube.com/watch?v=xNVM5UxlFSA",
+  "3": "https://www.youtube.com/watch?v=dSl_qnWO104",
+  "4": "https://www.youtube.com/watch?v=scEDHsr3APg",
+  "5": "https://www.youtube.com/watch?v=mFFXuXjVgkU"
+ }
+}

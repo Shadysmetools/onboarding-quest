@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.data/
+.vercel/
+tracker/tasks.csv
+*.log
+.DS_Store
